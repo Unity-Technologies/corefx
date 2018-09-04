@@ -9,7 +9,7 @@ using System.IO.Enumeration;
 using System.Threading;
 using System.Threading.Tasks;
 
-#if MONO && !MOBILE
+#if MONO && (MONODROID || !MOBILE)
 
 using System;
 using System.IO;
